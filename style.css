@@ -1,9 +1,11 @@
 body{
     font-family: "Poppins", sans-serif;
-    margin: 0;
 }
 h1{
   font-size: 50px;
+}
+section{
+  margin-bottom: 50px;
 }
 .orange{
   color: rgb(227, 151, 10);
@@ -36,4 +38,47 @@ h1{
   color:white;
   border-radius: 10px;
 }
-
+#teacher{
+  color: rgb(37, 126, 126);
+}
+h3{
+  font-weight: 700;
+}
+.mid{
+  text-align: center;
+}
+.shadow{
+  box-shadow: 10px 10px 60px gray;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+.size{
+  font-size: 35px;
+}
+span{
+  color: rgba(139, 0, 139, 0.769);
+  margin-left: 5px;
+}
+#safin{
+  border-left: 7px solid;
+  border-bottom: 7px solid;
+  border-image: linear-gradient(purple,rgb(236, 7, 236));
+  border-image-slice:1 ;
+  border-image-slice: 4;
+}
+#zisha{
+  border-left: 7px solid;
+  border-bottom: 7px solid;
+  border-image: linear-gradient(blue,rgb(18, 211, 211));
+  border-image-slice: 1;
+  border-image-slice: 4;
+  
+}
+#service{
+  color: rgb(40, 63, 106);
+}
+footer{
+  text-align: center;
+}
